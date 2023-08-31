@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   overflow: auto;
-  cursor: pointer;
   padding: 20px 0;
   margin: 20px 0;
 }

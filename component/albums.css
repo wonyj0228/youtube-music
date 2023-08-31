@@ -8,8 +8,10 @@
 .albums-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: relative;
   transition: all 0.3s ease-in-out;
+  width: 30%;
 }
 
 .albums-content__img {
@@ -19,7 +21,7 @@
 }
 
 .albums-content__title {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   font-weight: 600;
   padding: 10px 0;
   height: 40px;
@@ -37,5 +39,8 @@
 
 .albums-content:hover {
   opacity: 0.7;
+}
+
+.albums__index > div:first-child:hover {
   cursor: pointer;
 }
