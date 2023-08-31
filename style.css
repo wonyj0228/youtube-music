@@ -9,6 +9,7 @@
 @import 'component/category.css';
 @import 'component/status-bar.css';
 @import 'component/header.css';
+@import 'component/music-list.css';
 @import 'component/nav-bar.css';
 @import 'component/hashtag.css';
 
@@ -17,4 +18,18 @@ body {
   background-color: #030303;
   color: white;
   padding: 0 20px;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(89, 91, 91);
+  border-radius: 10px;
+  height: 25%;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(8, 8, 8, 0.902);
 }
