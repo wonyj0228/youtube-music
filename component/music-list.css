@@ -28,6 +28,7 @@
   width: 70px;
   border-radius: 10px;
   margin-right: 20px;
+  margin-left: 10px;
 }
 
 .music-list__item-column__info {
@@ -51,8 +52,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 }
 
 .music-list__item-column__chart span {
