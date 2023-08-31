@@ -33,3 +33,10 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   background: rgba(8, 8, 8, 0.902);
 }
+
+a:visited,
+a:link,
+a:active {
+  color: white;
+  text-decoration: none;
+}
