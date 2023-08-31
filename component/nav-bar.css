@@ -2,9 +2,37 @@
   background-color: #212121;
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
+  height: 60px;
+  padding: 5px 0;
 }
 
 .nav-bar__ul {
   display: flex;
+  height: inherit;
+  align-items: center;
+}
+
+.nav-bar__li {
+  width: 33%;
+}
+
+.nav-bar__li a {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  align-items: center;
+}
+
+.nav-bar a:visited,
+.nav-bar__li a:link,
+.nav-bar a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar__li a span {
+  margin-top: 5px;
+  font-size: 13px;
 }
