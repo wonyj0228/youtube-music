@@ -19,6 +19,10 @@
   align-items: center;
 }
 
+.music-list__item-column i {
+  padding-right: 10px;
+}
+
 .music-list__item-column__album {
   height: 70px;
   width: 70px;
@@ -40,4 +44,26 @@
 .music-list__item-column__artist {
   font-size: 15px;
   font-weight: 100;
+}
+
+.music-list__item-column__chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
+
+.music-list__item-column__chart span {
+  font-size: 35px;
+  margin-bottom: 6px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.fa-arrow-trend-up {
+  color: #2ca840;
+}
+.fa-arrow-trend-down {
+  color: #ff4e46;
 }

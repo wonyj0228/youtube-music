@@ -16,6 +16,7 @@
 
 /* Screen */
 @import 'screen/playlist.css';
+@import 'screen/popular.css';
 
 body {
   font-family: 'YouTube Sans', sans-serif;

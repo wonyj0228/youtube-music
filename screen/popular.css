@@ -1,0 +1,74 @@
+.genre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.genre__box {
+  display: flex;
+  width: 45%;
+  height: 60px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.genre__box-color {
+  width: 4%;
+  height: 60px;
+  background-color: aquamarine;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  animation: colorWidth 2s ease-in-out;
+  transition: width 1s ease;
+}
+
+.genre__box:hover .genre__box-color {
+  will-change: width, transition;
+  width: 10%;
+}
+
+.genre__box-text {
+  width: 96%;
+  height: 60px;
+  background-color: rgba(61, 61, 61, 0.437);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.genre__box-text span {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.genre div[class='genre__box']:nth-child(1) .genre__box-color {
+  background-color: #f9a4a6;
+}
+.genre div[class='genre__box']:nth-child(2) .genre__box-color {
+  background-color: #ed5f73;
+}
+.genre div[class='genre__box']:nth-child(3) .genre__box-color {
+  background-color: #cc4d3c;
+}
+.genre div[class='genre__box']:nth-child(4) .genre__box-color {
+  background-color: #b7a991;
+}
+.genre div[class='genre__box']:nth-child(5) .genre__box-color {
+  background-color: #7a3c30;
+}
+.genre div[class='genre__box']:nth-child(6) .genre__box-color {
+  background-color: #ba264a;
+}
+
+@keyframes colorWidth {
+  0% {
+    width: 4%;
+  }
+  50% {
+    width: 25%;
+  }
+  100% {
+    width: 4%;
+  }
+}
