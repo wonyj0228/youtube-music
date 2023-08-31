@@ -7,11 +7,15 @@
 /* Component */
 @import 'component/albums.css';
 @import 'component/category.css';
+@import 'component/controller.css';
 @import 'component/status-bar.css';
 @import 'component/header.css';
 @import 'component/music-list.css';
 @import 'component/nav-bar.css';
 @import 'component/hashtag.css';
+
+/* Screen */
+@import 'screen/playlist.css';
 
 body {
   font-family: 'YouTube Sans', sans-serif;

@@ -1,0 +1,41 @@
+.my-playlist__album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  position: relative;
+}
+
+.my-playlist__album img {
+  height: 230px;
+  width: 230px;
+  border-radius: 10px;
+}
+
+.background-img {
+  position: absolute;
+  z-index: -1;
+  width: 500px;
+  height: 260px;
+  filter: blur(120px);
+  top: 0px;
+  left: 0px;
+}
+
+.my-playlist__album span {
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+.playlist-btn {
+  animation: btnTurn 2s ease-in-out infinite;
+}
+
+@keyframes btnTurn {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

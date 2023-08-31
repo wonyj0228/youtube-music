@@ -26,3 +26,7 @@
 .status-bar__column span {
   margin-right: 6px;
 }
+
+.none-bg {
+  background-color: unset;
+}

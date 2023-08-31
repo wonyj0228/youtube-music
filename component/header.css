@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
 }
-.header__title span {
+.header__title-text {
   margin-left: 5px;
 }
 
@@ -27,9 +27,12 @@
 .header__icons {
   display: flex;
   align-items: center;
-  font-size: 20px;
 }
 
 .header__icons-icon {
   margin-left: 30px;
+}
+
+.header__icons {
+  font-size: 20px;
 }
