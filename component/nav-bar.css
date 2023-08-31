@@ -1,0 +1,10 @@
+.nav-bar {
+  background-color: #212121;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-bar__ul {
+  display: flex;
+}

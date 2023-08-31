@@ -1,0 +1,31 @@
+.hashtag {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  cursor: pointer;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.hashtag__li {
+  border: 1px solid rgba(179, 177, 177, 0.49);
+  background-color: rgba(159, 159, 159, 0.237);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 7px;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.hashtag::-webkit-scrollbar {
+  height: 5px;
+}
+
+.hashtag::-webkit-scrollbar-thumb {
+  background-color: rgb(89, 91, 91);
+  border-radius: 10px;
+}
+
+.hashtag::-webkit-scrollbar-track {
+  background: rgba(8, 8, 8, 0.902);
+}
