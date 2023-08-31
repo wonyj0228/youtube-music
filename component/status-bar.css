@@ -6,6 +6,8 @@
   width: 100%;
   box-sizing: border-box;
   color: white;
+  z-index: 1;
+  background-color: black;
 }
 .status-bar__row {
   display: flex;
