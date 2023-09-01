@@ -75,7 +75,58 @@
 .toggleSwitch-text,
 .toggleSwitch,
 .toggleButton {
-  transition: all 0.2s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+/* changing */
+
+.changing {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 1s ease-in-out;
+  position: relative;
+}
+
+.playing-header:has(#toggle:checked) ~ .changing {
+  will-change: transition;
+  transform: rotateY(180deg);
+}
+.playing-header:has(#toggle:checked) ~ .changing .changing-lyrics {
+  opacity: 1;
+}
+
+.changing img {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.changing-lyrics {
+  opacity: 0;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: rotateY(180deg);
+  transition: opacity 1s ease-in-out;
+}
+
+.changing-lyrics p {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.changing-lyrics p:nth-child(5) {
+  font-size: 20px;
 }
 
 /* playing-music */
@@ -189,18 +240,4 @@
   font-family: sans-serif;
   opacity: 0.7;
   font-size: 14px;
-}
-
-/* changing */
-
-.changing {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-.changing img {
-  height: 400px;
-  width: 400px;
-  border-radius: 10px;
 }
