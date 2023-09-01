@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://kr.uoldown.com/icon/android/youtube-music/youtube-music-android.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/youtube-sans" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Youtube-Music</title>
+    <script
+      src="https://kit.fontawesome.com/7e7b57fe59.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="playing-body">
+    <div class="status-bar none-bg">
+      <div class="status-bar__row">
+        <div class="status-bar__column">
+          <span>KT</span>
+          <span>7:00</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fa-solid fa-signal"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-battery-full fa-lg"></i>
+        </div>
+      </div>
+    </div>
+
+    <header class="playing-header">
+      <div class="playing-header__column">
+        <span>
+          <a href="javascript:history.back()">
+            <i class="fa-solid fa-chevron-down fa-sm"></i>
+          </a>
+        </span>
+      </div>
+
+      <div class="playing-header__column toggle-div">
+        <input type="checkbox" id="toggle" hidden />
+        <label for="toggle" class="toggleSwitch">
+          <div class="toggleSwitch-text">
+            <span>노래</span>
+            <span>가사</span>
+          </div>
+          <span class="toggleButton"></span>
+        </label>
+      </div>
+
+      <div class="playing-header__column">
+        <span
+          ><i class="fa-solid fa-tower-broadcast header__icons-icon"></i
+        ></span>
+        <span>
+          <i class="fa-solid fa-ellipsis-vertical header__icons-icon"></i
+        ></span>
+      </div>
+    </header>
+
+    <main>
+      <div class="changing">
+        <img
+          src="https://image.bugsm.co.kr/album/images/1000/40767/4076713.jpg"
+        />
+      </div>
+
+      <div class="playing-music">
+        <div class="playing-music__info">
+          <div class="playing-music__info-icon">
+            <i class="bx bx-like"></i>
+          </div>
+          <div class="flowtitle-box1">
+            <div class="flowtitle-box2">
+              <div class="playing-music__info-title">
+                Chance (feat. Peakboy (픽보이))
+              </div>
+            </div>
+            <h6>HAAN 및 Chan</h6>
+          </div>
+
+          <div class="playing-music__info-icon">
+            <i class="bx bx-dislike"></i>
+          </div>
+        </div>
+
+        <div class="playing-status">
+          <div class="playing-status__box">
+            <div class="playing-status__bar"></div>
+            <div class="playing-status__bar2"></div>
+            <div class="playing-status__dot"></div>
+          </div>
+          <div class="playing-status__time">
+            <span>1:17</span>
+            <span>3:15</span>
+          </div>
+        </div>
+
+        <div class="controller">
+          <div class="controller__btn-black controller__btn-none">
+            <i class="bx bx-shuffle"></i>
+          </div>
+          <div class="controller__btn-black controller__btn-none">
+            <i class="bx bx-skip-previous"></i>
+          </div>
+          <a href="playing.html">
+            <div class="controller__btn-white controller__btn-only">
+              <i class="bx bx-pause"></i>
+            </div>
+          </a>
+          <div class="controller__btn-black controller__btn-none">
+            <i class="bx bx-skip-next"></i>
+          </div>
+          <div class="controller__btn-black controller__btn-none">
+            <i class="bx bx-repost"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

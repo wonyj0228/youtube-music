@@ -15,6 +15,7 @@
 @import 'component/hashtag.css';
 
 /* Screen */
+@import 'screen/playing.css';
 @import 'screen/playlist.css';
 @import 'screen/popular.css';
 @import 'screen/storage.css';
