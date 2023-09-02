@@ -5,21 +5,21 @@
 @import 'reset.css';
 
 /* Component */
-@import '/css/component/albums.css';
-@import '/css/component/category.css';
-@import '/css/component/controller.css';
-@import '/css/component/status-bar.css';
-@import '/css/component/header.css';
-@import '/css/component/music-list.css';
-@import '/css/component/nav-bar.css';
-@import '/css/component/no-web.css';
-@import '/css/component/hashtag.css';
+@import 'component/albums.css';
+@import 'component/category.css';
+@import 'component/controller.css';
+@import 'component/status-bar.css';
+@import 'component/header.css';
+@import 'component/music-list.css';
+@import 'component/nav-bar.css';
+@import 'component/no-web.css';
+@import 'component/hashtag.css';
 
 /* Screen */
-@import '/css/screen/playing.css';
-@import '/css/screen/playlist.css';
-@import '/css/screen/popular.css';
-@import '/css/screen/storage.css';
+@import 'screen/playing.css';
+@import 'screen/playlist.css';
+@import 'screen/popular.css';
+@import 'screen/storage.css';
 
 body {
   font-family: 'YouTube Sans', sans-serif;
