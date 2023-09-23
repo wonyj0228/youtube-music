@@ -3,6 +3,7 @@
 CSS와 HTML을 사용한 뮤직 플레이어 사이트입니다. <br>
 https://wonyj0228.github.io/youtube-music/ <-- 프로젝트 링크!
 
+
 ### 🖥️ 프로젝트 소개
 -------------
 Youtube-music을 참고하여 만들었으며 모바일 사이즈에 맞춰 만들어졌습니다. <br>
